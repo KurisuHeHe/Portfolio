@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    padding: 1% 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+header {
+    padding: 10% 0;
+}
+
+section {
+    height: 200px;
+    padding: 5% 0;
+}
