@@ -136,12 +136,12 @@ footer {
 
 @media (min-width: 1024px) {
   .nav-links {
-    width: 25%;
+    padding-left: 70px;
   }
 }
 
 @media (min-width: 1440px) {
   .nav-links {
-    width: 18%;
+    padding-left: 150px;
   }
 }
