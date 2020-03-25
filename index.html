@@ -1,24 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <nav role='nav'>nav-bar</nav>
-    <main role='main'>
-        <header>
-            <h1>Chris Ramirez</h1>
-        </header>
-
-        <section class="projects">
-            Projects
-        </section>
-        <footer role="info">Footer Info</footer>
-    </main>
-<script src="logic.js"></script>    
-</body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo"><a href="#">Home</a></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/christopher-ramirez-a5b79410a/"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/KurisuHeHe?tab=repositories">Github</a>
+          </li>
+          <li><a href="mailto:chris.ramirez163@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="intro">
+      <div class="personal">
+        <h1>My name is Chris</h1>
+        <br />
+        <p>
+          As a web developer, my expertise is focused around front end
+          development and designing unique web pages. I’m currently enrolled in
+          a fullstack coding bootcamp at Thinkful and mostly looking forward to
+          learning new skills such as (node.js, react, etc).
+        </p>
+        <br />
+        <p>
+          Tech has been a personal passion of mine for as long as I can
+          remember. Growing up I would spend my weekends going to game stores
+          with friends and just enjoyed talking to people about how new games
+          were being developed. At one point I even started designing my own and
+          dreamed that someday I could bring it to life. Now as a developer, I’m
+          amazed by just how much you can accomplish with a few lines of simple
+          code. Even more, the fact that every day is a new learning experience
+          and will continue to be so.
+        </p>
+      </div>
+    </section>
+    <br />
+    <section class="content">
+      <div class="projects">
+        <h1>Projects</h1>
+        <br />
+        <h3>Real Estate Quiz App</h3>
+        <div class="appOne">
+          <a href="https://github.com/KurisuHeHe/Portfolio"
+            ><img class="image" src="quizApp.png"
+          /></a>
+          <p>
+            Ever wanted to become a real estate agent? Well, here is your
+            chance. The real estate quiz app is tailored to prepare any student
+            to learn all the essentials needed to pass the NY Licensing exam.
+            What’s great is that the app is also accessible via your mobile
+            device, just in case you need to crank a few hours while on the go.
+          </p>
+          <br />
+          <p>Built Using: HTML, CSS, JS</p>
+          <a href="https://github.com/KurisuHeHe/quiz-app" class="links"
+            >Github /</a
+          >
+          <a href="https://kurisuhehe.github.io/quiz-app/" class="links"
+            >Demo</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright">© Chris Ramirez 2020</div>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
 </html>
